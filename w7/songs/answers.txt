@@ -1,0 +1,7 @@
+1.  If songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura?
+2.  Hypothesize about why the way you’ve calculated this aura might not be very representative of the listener.
+    What better ways of calculating this aura would you propose?
+
+Answer:
+1.  Knowing that the average "aura" or energy was high while the average valence was normal, it might indicates that the user listens to both happy and sad songs.
+2.  I believe the issue lies in the insufficiency of the collected data. Consequently, the calculations may not be accurate. By adding more data and incorporating more songs, we can enhance the precision of the calculations and better determine what the user truly enjoys.

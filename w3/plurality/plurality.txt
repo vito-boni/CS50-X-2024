@@ -1,0 +1,20 @@
+CS50x/w3/plurality/ $ make plurality
+plurality.c:91:39: error: subscripted value is not an array, pointer, or vector
+            maxvotes = candidate_count[i].votes;
+                       ~~~~~~~~~~~~~~~^~
+1 error generated.
+make: *** [<builtin>: plurality] Error 1
+CS50x/w3/plurality/ $ make plurality
+CS50x/w3/plurality/ $ ./plurality
+Usage: plurality [candidate ...]
+CS50x/w3/plurality/ $ ./plurality Vito Konstantin Leona Erica
+Number of voters: 5
+Vote: Vito
+Vote: Konstantin
+Vote: Erica
+Vote: Erica
+Vote: Vito
+Vito
+Erica
+
+https://cs50.harvard.edu/x/2024/psets/3/plurality/

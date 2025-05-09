@@ -1,0 +1,12 @@
+sort1 uses: Bubble Sort
+
+How do you know?: Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares elements and swaps them if they are in the wrong order. It’s more efficient than Selection Sort but still not suitable for large datasets.
+
+sort2 uses: Merge Sort
+
+How do you know?: Merge Sort is like, divide and sort algorithm that then it splits the data into smaller subsets, sorts them, and then merges them back together. It’s very efficient for large datasets with a time complexity of O(n log n). It took less than a second to sort data with 50000 numbers (0m0.823s).
+
+sort3 uses: Selection Sort
+
+How do you know?: Selection Sort is simple, but not efficient for large datasets. The time it takes to sort the data increases quadratically with the number of elements. This could explain why it takes more time than other sorting programs to sort the data. Also when it tested on the sorted data file, it requires more time than sort1
+
